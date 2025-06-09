@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div className="text2">
         <h3>Hello </h3>
-        <p>It's C.Unal a design wizerd</p>
+        <p>It&apos;s C.Unal a design wizerd</p>
       </div>
     </div>
   );
