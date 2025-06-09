@@ -53,9 +53,10 @@ function Aside() {
       </div>
       <div className="navigation">
         <p onClick={togglePortfolio}>
-          {isPortfolioOpen ? ">" : "⌄"}
+          {isPortfolioOpen ? "\u003E" : "⌄"}
           &nbsp;PORTFOLIO
         </p>
+
         {!isPortfolioOpen && (
           <div className="submenu">
             {navItems.map((item) => (
