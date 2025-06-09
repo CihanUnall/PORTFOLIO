@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import "../styles/header.scss";
 
 function Header() {
@@ -10,7 +11,6 @@ function Header() {
   const navItems = [
     { href: "/", label: "home.jsx", icon: "/react.png" },
     { href: "/about", label: "about.html", icon: "/html.png" },
-
     { href: "/project", label: "project.js", icon: "/js.png" },
     { href: "/document", label: "document.json", icon: "/data.png" },
     { href: "/resume", label: "resume.md", icon: "/markdown.png" },
@@ -25,7 +25,12 @@ function Header() {
           href={item.href}
           className={pathname === item.href ? "active" : ""}
         >
-          <img src={item.icon} alt={`${item.label} icon`} />
+          <Image
+            src={item.icon}
+            alt={`${item.label} icon`}
+            width={20}
+            height={20}
+          />
           &nbsp;{item.label}
         </Link>
       ))}

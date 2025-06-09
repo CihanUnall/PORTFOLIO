@@ -1,5 +1,5 @@
 // app/product/page.jsx
-"use client"; // Eğer App Router kullanıyorsan bunu eklemelisin
+"use client";
 
 import Link from "next/link";
 import Image from "next/image";

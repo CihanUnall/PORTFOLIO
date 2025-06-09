@@ -15,6 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 function Aside() {
   const [isPortfolioOpen, setIsPortfolioOpen] = useState(false);
@@ -63,7 +64,12 @@ function Aside() {
                 href={item.href}
                 className={pathname === item.href ? "active" : ""}
               >
-                <img src={item.icon} alt={`${item.label} icon`} />
+                <Image
+                  src={item.icon}
+                  alt={`${item.label} icon`}
+                  width={20}
+                  height={20}
+                />
                 &nbsp;{item.label}
               </Link>
             ))}

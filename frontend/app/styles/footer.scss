@@ -44,11 +44,12 @@
       align-items: center;
       img {
         margin-left: 0.3rem;
+        margin-bottom: 0.1rem;
       }
       p {
         font-size: 0.6rem;
         margin-left: 0.1rem;
-        margin-bottom: 0.1rem;
+
         color: rgb(173, 172, 172);
       }
     }
@@ -59,6 +60,7 @@
       flex-direction: row;
       justify-content: end;
       align-items: center;
+
       ul {
         display: flex;
         flex-direction: row;

@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
 import "../styles/nav.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,12 +7,13 @@ import {
   faSquare,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image"; // Eksik import eklendi
 
 function Nav() {
   return (
     <section className="options">
       <div className="item1">
-        <img src="/vscode.png" alt="VS Code" width={16} height={16} />
+        <Image src="/vscode.png" alt="VS Code" width={16} height={16} />
         <ul>
           <li>File </li>
           <li>Edit </li>

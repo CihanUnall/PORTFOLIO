@@ -1,5 +1,5 @@
-import Header from "./component/Header";
 import "./styles/page.scss";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,7 +8,14 @@ export default function Home() {
         <h2>Web Development</h2>
       </div>
       <div className="bild">
-        <img src="/cihan.png" alt="cihan picture" className="cihanbild" />
+        <Image
+          src="/cihan.png"
+          alt="cihan picture"
+          className="cihanbild"
+          width={700}
+          height={800}
+          style={{ width: "37%", height: "auto" }}
+        />
       </div>
       <div className="text2">
         <h3>Hello </h3>
