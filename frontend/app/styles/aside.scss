@@ -1,0 +1,78 @@
+aside {
+  width: 11rem;
+  height: 100%;
+  border-right: solid 1px rgb(63, 63, 63);
+  display: flex;
+  flex-direction: row;
+  li {
+    list-style: none;
+  }
+  .navigation {
+    background-color: rgb(39, 37, 37);
+    width: 8.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+
+    p {
+      cursor: pointer;
+      margin: 0.6rem 0 0.4rem 0.3rem;
+    }
+    .submenu {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      img {
+        width: 1rem;
+        height: 1rem;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+
+        height: 2rem;
+      }
+      a:hover {
+        color: rgb(239, 255, 8);
+        margin-top: 0.1rem;
+      }
+    }
+  }
+
+  .icons {
+    height: 100%;
+    width: 2.5rem;
+    color: rgb(184, 182, 182);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 30, 30);
+    align-items: center;
+    svg {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .blue-line {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 0.3rem;
+    }
+    .blue-line:hover {
+      border-left: solid 2px rgb(51, 124, 207);
+      color: rgb(230, 216, 27);
+    }
+    .blue-line:active {
+      border-left: solid 2px aqua;
+      color: rgb(236, 108, 57);
+    }
+  }
+}
