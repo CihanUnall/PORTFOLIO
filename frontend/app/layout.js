@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import "./globals.scss";
+import "./globals.css";
 import "./styles/design.scss";
 import Aside from "./components/Aside";
 import Clock from "./components/Clock";

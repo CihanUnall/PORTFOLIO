@@ -1,0 +1,22 @@
+/* tw-animate-css importunu projende kurduysan bırak, yoksa kaldır */
+/* @import "tw-animate-css"; */
+
+/* Tailwind CSS için gerekli direktifler */
+@import "tailwindcss";
+
+/* Temel reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body temel stili */
+body {
+  background-color: rgba(174, 222, 235, 0.596);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
