@@ -11,6 +11,7 @@
     height: 4%;
     display: flex;
     justify-content: space-between;
+
     background: #f5b5b5;
     background: linear-gradient(
       176deg,
@@ -25,13 +26,12 @@
       font-size: 0.7rem;
       font-weight: 600;
       color: rgb(0, 0, 0);
-      align-content: center;
-      justify-items: center;
-      margin-left: 0.2rem;
-      border-top-left-radius: 1.4rem;
-      span {
-        color: rgb(57, 56, 58);
-      }
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      margin-left: 0.5rem;
+      height: 100%;
     }
     .icons {
       margin-right: 0.2rem;
@@ -160,9 +160,18 @@
     .camera {
       .clock {
         font-size: 0.5rem;
+        width: 4.5rem;
+        margin-right: 0.3rem;
+      }
+      .icons {
+        width: 4.5rem;
+        margin-left: 0.3rem;
+        svg {
+          width: 0.7rem;
+        }
       }
       .camerain {
-        width: 4rem;
+        width: 5rem;
       }
     }
   }
