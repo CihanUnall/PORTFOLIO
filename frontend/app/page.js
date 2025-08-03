@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import "../app/styles/home.scss";
+import "./styles/dashboard.scss";
 
 export default function Dashboard() {
   return (
