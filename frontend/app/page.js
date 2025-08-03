@@ -2,7 +2,7 @@
 import Image from "next/image";
 import "../app/styles/home.scss";
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <div className="main-container">
       <div className="text1">
