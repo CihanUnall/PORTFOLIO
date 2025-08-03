@@ -5,7 +5,7 @@
   overflow-y: auto;
   background-color: rgb(53, 52, 52);
   .container {
-    max-width: 60%;
+    max-width: 80%;
     margin: 1rem auto;
     padding: 3rem;
     font-family: "Segoe UI", sans-serif;
@@ -83,6 +83,93 @@
 
     .signature {
       margin-top: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-page {
+    .header {
+      display: flex;
+      flex-direction: column;
+      .profile {
+        h1 {
+          font-size: 1.3rem;
+        }
+        h2 {
+          font-size: 0.8rem;
+        }
+      }
+      .contact {
+        min-width: 140px;
+        height: 70%;
+
+        p {
+          font-size: 0.6rem;
+          svg {
+            margin-right: 0.8rem;
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+    .content {
+      h3 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.7rem;
+        text-align: justify;
+      }
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .about-page {
+    .container {
+      padding: 0.2rem;
+    }
+
+    .header {
+      .profile {
+        h1 {
+          font-size: 1.3rem;
+        }
+        h2 {
+          font-size: 0.8rem;
+        }
+      }
+      .contact {
+        min-width: 120px;
+        height: 60%;
+
+        p {
+          font-size: 0.6rem;
+          svg {
+            margin-right: 0.4rem;
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+    .content {
+      h3 {
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        font-size: 0.6rem;
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        font-size: 0.6rem;
+      }
     }
   }
 }

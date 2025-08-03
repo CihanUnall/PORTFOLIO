@@ -1,11 +1,11 @@
-import Nav from "./component/Nav";
+import Nav from "./components/Nav";
 import "./globals.scss";
 import "./styles/design.scss";
-import Aside from "./component/Aside";
-import Clock from "./component/Clock";
-import Icon from "./component/Icon";
-import Footer from "./component/Footer";
-import Header from "./component/Header";
+import Aside from "./components/Aside";
+import Clock from "./components/Clock";
+import Icon from "./components/Icon";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export const metadata = {
   title: "Portfolio CU",
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
           </section>
           <Footer />
         </div>
-        <div className="keyboard-container"></div>
+
         <div className="keyboard">
           <div className="keyboardfront"></div>
         </div>

@@ -29,3 +29,8 @@ header {
     border-top: 2px solid aqua;
   }
 }
+@media (max-width: 1380px) {
+  .nav-item-label {
+    display: none;
+  }
+}

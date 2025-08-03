@@ -4,6 +4,11 @@ import "../styles/footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
 import Image from "next/image";
+import {
+  faArrowAltCircleLeft,
+  faBarsStaggered,
+  faCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -40,6 +45,17 @@ function Footer() {
         <Image src="/settings.png" alt="setting" width={20} height={20} />
         <Image src="/trash.png" alt="trash" width={20} height={20} />
         <Image src="/menu.png" alt="menu" width={20} height={20} />
+      </div>
+      <div className="footer-item3">
+        <div>
+          <FontAwesomeIcon icon={faBarsStaggered} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faCircle} />
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faArrowAltCircleLeft} />
+        </div>
       </div>
     </div>
   );

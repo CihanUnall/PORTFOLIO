@@ -9,7 +9,7 @@ function Header() {
   const pathname = usePathname();
 
   const navItems = [
-    { href: "/", label: "home.jsx", icon: "/react.png" },
+    { href: "/home", label: "home.jsx", icon: "/react.png" },
     { href: "/about", label: "about.html", icon: "/html.png" },
     { href: "/project", label: "project.js", icon: "/js.png" },
     { href: "/document", label: "document.json", icon: "/data.png" },
@@ -31,7 +31,7 @@ function Header() {
             width={20}
             height={20}
           />
-          &nbsp;{item.label}
+          &nbsp;<p className="nav-item-label">{item.label}</p>
         </Link>
       ))}
     </header>

@@ -58,3 +58,22 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .contact-main-container {
+    .contact-container {
+      width: 90%;
+      height: auto;
+      padding: 0.5rem;
+      input,
+      textarea,
+      label {
+        font-size: 0.7rem;
+      }
+
+      button {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+      }
+    }
+  }
+}

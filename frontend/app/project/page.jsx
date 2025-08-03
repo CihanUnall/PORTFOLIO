@@ -9,7 +9,7 @@ const projects = [
   {
     title: "KRC Cars",
     image: "/cars.png",
-    link: "https://github.com/CihanUnall/Krc-Cars",
+    link: "https://auto-nextjs-project-ebon.vercel.app",
   },
   {
     title: "Accounting",

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   darkMode: "class", // Koyu mod için 'class' kullanıyoruz, 'media' da olabilir
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
