@@ -1,9 +1,7 @@
-"use client";
 import React from "react";
-import Document from "../document/page.jsx";
 
-function Resume() {
-  return <Document />;
+function page() {
+  return <div></div>;
 }
 
-export default Resume;
+export default page;
