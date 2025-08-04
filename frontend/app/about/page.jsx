@@ -9,13 +9,13 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function page() {
   return (
     <div className="about-page">
-      <div className="container">
-        <div className="header">
-          <div className="profile">
+      <div className="container-about">
+        <div className="header-about">
+          <div className="profile-about">
             <h1>Cihan Ünal</h1>
             <h2>Full Stack Developer</h2>
           </div>
-          <div className="contact">
+          <div className="contact-about">
             <p>
               <FontAwesomeIcon icon={faMailBulk} width={16} height={16} />
               ---------------------
@@ -39,7 +39,7 @@ function page() {
           </div>
         </div>
         <hr />
-        <div className="content">
+        <div className="content-about">
           <h3>Motivationsschreiben</h3>
           <p>Sehr geehrte Damen und Herren,</p>
           <p>
@@ -48,7 +48,7 @@ function page() {
           </p>
 
           <hr />
-          <p className="signature">
+          <p className="signature-about">
             Mit freundlichen Grüßen
             <br />
             Cihan Ünal

@@ -2,7 +2,6 @@
 /* @import "tw-animate-css"; */
 
 /* Tailwind CSS için gerekli direktifler */
-@import "tailwindcss";
 
 /* Temel reset */
 * {
@@ -17,6 +16,3 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

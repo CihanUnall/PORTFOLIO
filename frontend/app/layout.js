@@ -1,5 +1,6 @@
+import React from "react";
 import Nav from "./components/Nav";
-import "./globals.css";
+import "./global.css";
 import "./styles/design.scss";
 import Aside from "./components/Aside";
 import Clock from "./components/Clock";
@@ -8,7 +9,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 export const metadata = {
-  title: "Portfolio CU",
+  title: "Cihan Ünal ",
   description: "Creative Portfolio by Cihan Ünal",
   icons: {
     icon: "/favicon.ico",
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
 
             <div className="main-child">
               <Header />
+
               {children}
             </div>
           </section>

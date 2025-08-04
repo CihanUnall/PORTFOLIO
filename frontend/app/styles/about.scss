@@ -4,7 +4,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   background-color: rgb(53, 52, 52);
-  .container {
+  .container-about {
     max-width: 80%;
     margin: 1rem auto;
     padding: 3rem;
@@ -14,8 +14,7 @@
     box-shadow: 0 4px 8px rgb(78, 176, 221);
     color: #333;
   }
-
-  .header {
+  .header-about {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -37,12 +36,7 @@
       margin: 1rem 0;
     }
 
-    .date {
-      font-style: italic;
-      color: #999;
-    }
-
-    .contact {
+    .contact-about {
       background-color: #1c2c4c;
       color: #fff;
       border-radius: 8px;
@@ -63,7 +57,7 @@
     }
   }
 
-  .content {
+  .content-about {
     margin-top: 2rem;
 
     h3 {
@@ -81,7 +75,7 @@
       text-decoration: underline;
     }
 
-    .signature {
+    .signature-about {
       margin-top: 2rem;
     }
   }
@@ -89,10 +83,10 @@
 
 @media (max-width: 1300px) {
   .about-page {
-    .header {
+    .header-about {
       display: flex;
       flex-direction: column;
-      .profile {
+      .profile-about {
         h1 {
           font-size: 1.3rem;
         }
@@ -100,7 +94,7 @@
           font-size: 0.8rem;
         }
       }
-      .contact {
+      .contact-about {
         min-width: 140px;
         height: 70%;
 
@@ -113,7 +107,7 @@
         }
       }
     }
-    .content {
+    .content-about {
       h3 {
         font-size: 1rem;
       }
@@ -129,12 +123,12 @@
 }
 @media (max-width: 500px) {
   .about-page {
-    .container {
+    .container-about {
       padding: 0.2rem;
     }
 
-    .header {
-      .profile {
+    .header-about {
+      .profile-about {
         h1 {
           font-size: 1.3rem;
         }
@@ -142,7 +136,7 @@
           font-size: 0.8rem;
         }
       }
-      .contact {
+      .contact-about {
         min-width: 120px;
         height: 60%;
 
@@ -155,7 +149,7 @@
         }
       }
     }
-    .content {
+    .content-about {
       h3 {
         font-size: 0.7rem;
         margin: 0;

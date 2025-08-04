@@ -1,0 +1,93 @@
+// styles/skills.module.scss
+
+.container-skills {
+  height: 100%;
+  min-width: 100%;
+  overflow-x: hidden;
+
+  padding: 4rem 2rem;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #1e293b;
+  font-family: "Segoe UI", sans-serif;
+
+  .subtitle-skills {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle-skills {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: #1e293b;
+  }
+
+  .icons-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  .card-skills {
+    width: 12rem;
+    height: 7rem;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #3b82f6;
+      color: white;
+      transform: translateY(-5px);
+    }
+  }
+
+  .footer-skills {
+    margin-top: 4rem;
+    font-size: 1rem;
+    color: #1e293b;
+  }
+
+  .skill-image {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+  }
+  .footer-icons-skills {
+    text-align: center;
+    a {
+      font-size: 0.5rem;
+      text-decoration: none;
+      color: #1e293b;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container-skills {
+    .title-skills {
+      font-size: 1.7rem;
+    }
+
+    .subtitle-skills {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .card-skills {
+      width: 10rem;
+      height: 7rem;
+    }
+  }
+}
