@@ -1,6 +1,6 @@
 "use client";
 
-export default function Page() {
+export default function Documents() {
   return (
     <main className="flex h-full items-center justify-center bg-gray-50 px-6 py-12">
       <div className="w-[80%] h-[40%] bg-white rounded-lg shadow-lg p-12 flex flex-col items-center justify-center">
