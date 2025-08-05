@@ -44,7 +44,6 @@ export default function ProfilePage() {
               width={400}
               height={300}
               className="image-myprofile"
-              loading="lazy"
             />
           </div>
         </Link>

@@ -14,7 +14,6 @@ export default function Home() {
           className="cihanbild"
           width={900}
           height={1000}
-          loading="lazy"
         />
       </div>
       <div className="text2">

@@ -54,7 +54,6 @@ export default function ProjectPage() {
               width={400}
               height={300}
               className="image"
-              loading="lazy"
             />
           </div>
         </Link>

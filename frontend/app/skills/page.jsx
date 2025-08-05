@@ -16,7 +16,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           HTML
         </div>
@@ -27,7 +26,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           CSS
         </div>
@@ -38,7 +36,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           SCSS
         </div>
@@ -49,7 +46,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           JavaScript
         </div>
@@ -60,7 +56,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Tailwind CSS
         </div>
@@ -71,7 +66,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           React.js
         </div>
@@ -82,7 +76,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Next.js
         </div>
@@ -93,7 +86,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Express.js
         </div>
@@ -104,7 +96,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           MongoDB
         </div>
@@ -115,7 +106,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Node.js
         </div>
@@ -126,7 +116,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Excalidraw (Diagram & Wireframe Tool)
         </div>
@@ -137,7 +126,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           SEO
         </div>
@@ -149,7 +137,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           UI / UX
         </div>
@@ -161,7 +148,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Api (Rest)
         </div>
@@ -172,7 +158,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Visual Studio Code
         </div>
@@ -183,7 +168,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           GitHub
         </div>
@@ -194,7 +178,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Git
         </div>
@@ -205,7 +188,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Linux
         </div>
@@ -216,7 +198,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Windows
         </div>
@@ -227,7 +208,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           macOS
         </div>
@@ -239,7 +219,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           FTP / Web Hosting
         </div>
@@ -250,7 +229,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Photoshop
         </div>
@@ -261,7 +239,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           WebSocket
         </div>
@@ -272,7 +249,6 @@ export default function SkillsPage() {
             width={40}
             height={30}
             className="skill-image"
-            loading="lazy"
           />
           Microsoft System Administration
         </div>

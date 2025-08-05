@@ -39,13 +39,7 @@ function Nav() {
     <section className="options">
       <div className="item1">
         <div>
-          <Image
-            src="/vscode.png"
-            alt="VS Code"
-            width={16}
-            height={16}
-            loading="lazy"
-          />
+          <Image src="/vscode.png" alt="VS Code" width={16} height={16} />
         </div>
 
         {/* Menü (Geniş ekran) */}

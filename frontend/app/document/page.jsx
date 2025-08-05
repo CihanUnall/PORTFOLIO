@@ -94,7 +94,6 @@ export default function DocumentPage() {
               width={400}
               height={300}
               className="certificate-image"
-              loading="lazy"
             />
           </div>
         </Link>

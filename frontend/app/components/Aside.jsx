@@ -70,7 +70,6 @@ function Aside() {
                   alt={`${item.label} icon`}
                   width={20}
                   height={20}
-                  loading="lazy"
                 />
                 &nbsp;{item.label}
               </Link>
