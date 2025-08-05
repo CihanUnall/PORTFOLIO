@@ -7,32 +7,32 @@ import "../styles/project.scss";
 
 const projects = [
   {
-    title: "KRC Cars - Gruppenprojekt",
+    title: "🚗 KRC Cars - Gruppenprojekt",
     image: "/cars.png",
-    link: "https://auto-nextjs-project-ebon.vercel.app",
+    link: "https://auto-nextjs-project-ebon.vercel.app/about",
   },
   {
-    title: "🛍️ Finalprojekt: REST-API für einen Webshop",
+    title: "🎓 Be Final Projekt: REST-API für einen Webshop",
     image: "/beproject.png",
     link: "https://github.com/CihanUnall/Be-Final-Project",
   },
   {
-    title: "Web-socket -Simple chat program",
+    title: "🌐 Web-socket -Simple chat program",
     image: "/websocket.png",
     link: "https://github.com/CihanUnall/Web-socket",
   },
   {
-    title: "Accounting",
+    title: "💰 Accounting",
     image: "/accounting.png",
     link: "https://github.com/CihanUnall/Accounting_software_JavaScript",
   },
   {
-    title: "Todo App",
+    title: "📋 Todo App",
     image: "/todo.png",
     link: "https://github.com/CihanUnall/FULLSTACK-APP-TODO",
   },
   {
-    title: "Music Group",
+    title: "🎸 Music Group",
     image: "/music.png",
     link: "https://github.com/CihanUnall/annen_may_kantereit",
   },

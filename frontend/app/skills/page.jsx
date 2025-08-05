@@ -173,6 +173,16 @@ export default function SkillsPage() {
         </div>
         <div className="card-skills">
           <Image
+            src="/git.png"
+            alt="Git"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          Git
+        </div>
+        <div className="card-skills">
+          <Image
             src="/linux.png"
             alt="Linux"
             width={40}
@@ -191,6 +201,17 @@ export default function SkillsPage() {
           />
           Windows
         </div>
+        <div className="card-skills">
+          <Image
+            src="/macos.png"
+            alt="macOS"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          macOS
+        </div>
+
         <div className="card-skills">
           <Image
             src="/ftp.png"
