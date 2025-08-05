@@ -1,105 +1,72 @@
 "use client";
-
-import { useState } from "react";
 import "../styles/contact.scss";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import { useEffect } from "react";
 
-function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
+export default function ContactPage() {
+  useEffect(() => {
+    delete L.Icon.Default.prototype._getIconUrl;
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+    L.Icon.Default.mergeOptions({
+      iconRetinaUrl:
+        "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon-2x.png",
+      iconUrl: "https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png",
+      shadowUrl:
+        "https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png",
+    });
+  }, []);
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Basit doğrulama
-    if (!formData.name || !formData.email || !formData.message) {
-      alert("Tüm alanları doldurun.");
-      return;
-    }
-
-    if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      alert("Geçerli bir e-posta girin.");
-      return;
-    }
-
-    setLoading(true);
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (res.ok) {
-        setSubmitted(true);
-        setFormData({ name: "", email: "", message: "" });
-        setTimeout(() => setSubmitted(false), 3000);
-      } else {
-        alert("Bir hata oluştu. Lütfen tekrar deneyin.");
-      }
-    } catch (err) {
-      console.error("Hata:", err);
-      alert("Sunucu hatası.");
-    }
-
-    setLoading(false);
-  };
+  const position = [51.538, 7.2257];
 
   return (
-    <div className="contact-main-container">
-      <div className="contact-container">
-        <h2>Contact Me</h2>
-        {submitted ? (
-          <p className="success-message">Teşekkürler! Mesajınız gönderildi.</p>
-        ) : (
-          <form onSubmit={handleSubmit}>
-            <label htmlFor="name">Adınız:</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
+    <div className="contactPage">
+      <div className="mapSection">
+        <MapContainer
+          center={position}
+          zoom={13}
+          scrollWheelZoom={false}
+          className="map"
+        >
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution="&copy; OpenStreetMap contributors"
+          />
+          <Marker position={position}>
+            <Popup>
+              I am here! <br /> Dortmund, Germany
+            </Popup>
+          </Marker>
+        </MapContainer>
+      </div>
 
-            <label htmlFor="email">E-posta:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-
-            <label htmlFor="message">Mesajınız:</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            ></textarea>
-
-            <button type="submit" disabled={loading}>
-              {loading ? "Gönderiliyor..." : "Gönder"}
-            </button>
-          </form>
-        )}
+      <div className="infoSection">
+        <h2>Cihan Ünal</h2>
+        <p>
+          <strong>Email:</strong>cihanunal_20@hotmail.com
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/CihanUnall"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/CihanUnall
+          </a>
+        </p>
+        <p>
+          <strong>LinkedIn:</strong>
+          <a
+            href="https://www.linkedin.com/in/cihan-%C3%BCnal/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/cihanunal
+          </a>
+        </p>
       </div>
     </div>
   );
 }
-
-export default Contact;

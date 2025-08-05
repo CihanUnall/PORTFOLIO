@@ -1,4 +1,3 @@
-// app/product/page.jsx
 "use client";
 
 import Link from "next/link";
@@ -36,11 +35,9 @@ const projects = [
     image: "/music.png",
     link: "https://github.com/CihanUnall/annen_may_kantereit",
   },
-
-  // Yeni projeyi buraya ekle
 ];
 
-export default function ProductPage() {
+export default function ProjectPage() {
   return (
     <div className="container">
       {projects.map((project, index) => (
@@ -57,6 +54,7 @@ export default function ProductPage() {
               width={400}
               height={300}
               className="image"
+              loading="lazy"
             />
           </div>
         </Link>

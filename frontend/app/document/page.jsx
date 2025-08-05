@@ -1,4 +1,3 @@
-// app/product/page.jsx
 "use client";
 
 import Link from "next/link";
@@ -76,8 +75,6 @@ const certificates = [
     image: "/goodhabitz.png",
     link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
   },
-
-  // Yeni projeyi buraya ekle
 ];
 
 export default function DocumentPage() {
@@ -97,6 +94,7 @@ export default function DocumentPage() {
               width={400}
               height={300}
               className="certificate-image"
+              loading="lazy"
             />
           </div>
         </Link>

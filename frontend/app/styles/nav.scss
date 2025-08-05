@@ -150,6 +150,9 @@
 
 @media (max-width: 768px) {
   .options {
+    .burger-container {
+      z-index: 9998;
+    }
     .burger-text {
       display: none;
     }

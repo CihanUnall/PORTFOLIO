@@ -27,7 +27,7 @@ const projects = [
   },
 ];
 
-export default function ProductPage() {
+export default function ProfilePage() {
   return (
     <div className="container-myprofile">
       {projects.map((project, index) => (
@@ -44,6 +44,7 @@ export default function ProductPage() {
               width={400}
               height={300}
               className="image-myprofile"
+              loading="lazy"
             />
           </div>
         </Link>

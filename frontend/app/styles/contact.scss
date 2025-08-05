@@ -1,78 +1,103 @@
-.contact-main-container {
-  background-color: #333;
-  width: 100%;
-  height: 100%;
+.contactPage {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background: #f0f2f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-  .contact-container {
-    background: white;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    width: 35rem;
-    height: 30rem;
-    text-align: center;
-    margin: auto;
-    margin-top: 4rem;
+  .mapSection {
+    flex: 1;
+    min-width: 50%;
+    height: 100%;
+
+    .map {
+      width: 100%;
+      height: 100%;
+      border-right: 2px solid #e0e0e0;
+    }
+  }
+
+  .infoSection {
+    flex: 1;
+    padding: 3rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333;
 
     h2 {
-      color: #333;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      color: #222;
     }
 
-    label {
-      display: block;
-      margin-top: 10px;
-      font-weight: bold;
-      text-align: left;
-    }
+    p {
+      font-size: 1.1rem;
+      margin: 0.8rem 0;
 
-    input,
-    textarea {
-      width: 100%;
-      padding: 8px;
-      margin-top: 5px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 14px;
-    }
+      strong {
+        color: #555;
+        width: 100px;
+        display: inline-block;
+      }
 
-    button {
-      width: 100%;
-      margin-top: 15px;
-      padding: 10px;
-      background: #007bff;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 16px;
-    }
+      a {
+        color: #0077b6;
+        text-decoration: none;
+        transition: color 0.2s ease;
 
-    button:hover {
-      background: #0056b3;
-    }
-
-    .success-message {
-      color: green;
-      font-weight: bold;
-      margin-top: 10px;
+        &:hover {
+          color: #023e8a;
+        }
+      }
     }
   }
 }
-@media (max-width: 1200px) {
-  .contact-main-container {
-    .contact-container {
-      width: 90%;
-      height: auto;
-      padding: 0.5rem;
-      input,
-      textarea,
-      label {
-        font-size: 0.7rem;
+
+// Responsive design
+@media (max-width: 1400px) {
+  .contactPage {
+    flex-direction: column;
+
+    .mapSection,
+    .infoSection {
+      width: 100%;
+      height: 50vh;
+    }
+
+    .infoSection {
+      padding: 2rem 1.5rem;
+
+      h2 {
+        font-size: 1.7rem;
       }
 
-      button {
-        font-size: 0.7rem;
-        padding: 0.5rem;
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .contactPage {
+    flex-direction: column;
+
+    .mapSection,
+    .infoSection {
+      width: 100%;
+      height: 50vh;
+    }
+
+    .infoSection {
+      padding: 2rem 1.5rem;
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      p {
+        font-size: 0.8rem;
       }
     }
   }
