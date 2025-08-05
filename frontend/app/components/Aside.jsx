@@ -25,11 +25,11 @@ function Aside() {
   };
   const pathname = usePathname();
   const navItems = [
-    { href: "/", label: "home.jsx", icon: "/react.png" },
-    { href: "/about", label: "about.html", icon: "/html.png" },
+    { href: "/home", label: "home.jsx", icon: "/react.png" },
+    { href: "/myprofile", label: "my_profile.html", icon: "/html.png" },
     { href: "/project", label: "project.js", icon: "/js.png" },
     { href: "/document", label: "document.json", icon: "/data.png" },
-    { href: "/resume", label: "resume.md", icon: "/markdown.png" },
+    { href: "/skills", label: "skills.md", icon: "/markdown.png" },
     { href: "/contact", label: "contact.scss", icon: "/scss.png" },
   ];
   const sideIcons = [

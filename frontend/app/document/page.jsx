@@ -56,6 +56,26 @@ const certificates = [
     image: "/certificate.png",
     link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
   },
+  {
+    title: "Cultural Diversity",
+    image: "/goodhabitz.png",
+    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+  },
+  {
+    title: "Scrum",
+    image: "/goodhabitz.png",
+    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+  },
+  {
+    title: "Soziale Intelligenz",
+    image: "/goodhabitz.png",
+    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+  },
+  {
+    title: "Teamwork",
+    image: "/goodhabitz.png",
+    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+  },
 
   // Yeni projeyi buraya ekle
 ];

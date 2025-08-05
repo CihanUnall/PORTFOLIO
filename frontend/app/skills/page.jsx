@@ -111,6 +111,38 @@ export default function SkillsPage() {
         </div>
         <div className="card-skills">
           <Image
+            src="/excalidraw.png"
+            alt="Excalidraw"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          Excalidraw (Diagram & Wireframe Tool)
+        </div>
+        <div className="card-skills">
+          <Image
+            src="/seo.png"
+            alt="SEO"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          SEO
+        </div>
+
+        <div className="card-skills">
+          <Image
+            src="/uiux.png"
+            alt="UI/UX"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          UI / UX
+        </div>
+
+        <div className="card-skills">
+          <Image
             src="/api.png"
             alt="API"
             width={40}
@@ -118,6 +150,16 @@ export default function SkillsPage() {
             className="skill-image"
           />
           Api (Rest)
+        </div>
+        <div className="card-skills">
+          <Image
+            src="/vscode.png"
+            alt="Visual Studio Code"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          Visual Studio Code
         </div>
         <div className="card-skills">
           <Image
@@ -138,6 +180,16 @@ export default function SkillsPage() {
             className="skill-image"
           />
           Linux
+        </div>
+        <div className="card-skills">
+          <Image
+            src="/windows.png"
+            alt="Windows"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          Windows
         </div>
         <div className="card-skills">
           <Image
@@ -189,6 +241,12 @@ export default function SkillsPage() {
             title="system icons"
           >
             System icons created by Design Circle - Flaticon
+          </a>
+        </span>
+        <br />
+        <span className="footer-icons-skills">
+          <a href="  https://www.iconfinder.com/" title="system icons">
+            System icons created by ICONFINDER
           </a>
         </span>
       </footer>

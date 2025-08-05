@@ -1,25 +1,26 @@
-.container {
+.container-myprofile {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   padding: 32px;
-  max-width: 100%;
+
+  width: 100%;
   height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
   background-color: rgb(61, 60, 60);
   gap: 5rem;
   a {
     text-decoration: none;
+    color: #666161;
     :hover {
       color: #f04f4f;
     }
   }
-
-  .card {
+  .card-myprofile {
     width: 35rem;
-    height: 32rem;
+    height: 25rem;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -35,29 +36,45 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       transform: translateY(-4px);
     }
-  }
 
-  .image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px;
-  }
-
-  .title {
-    padding: 16px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #3b3838;
+    .title-myprofile {
+      padding: 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .image-myprofile {
+      width: 90%;
+      height: auto;
+      border-radius: 15px;
+    }
   }
 }
 @media (max-width: 1200px) {
-  .container {
-    .card {
+  .container-myprofile {
+    .card-myprofile {
       width: 100%;
       height: auto;
-      .title {
+      .title-myprofile {
         font-size: 0.8rem;
+      }
+      .image-myprofile {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container-myprofile {
+    .card-myprofile {
+      width: 100%;
+      height: auto;
+      .title-myprofile {
+        font-size: 0.6rem;
+      }
+      .image-myprofile {
+        height: auto;
+        width: 100%;
       }
     }
   }

@@ -7,9 +7,19 @@ import "../styles/project.scss";
 
 const projects = [
   {
-    title: "KRC Cars",
+    title: "KRC Cars - Gruppenprojekt",
     image: "/cars.png",
     link: "https://auto-nextjs-project-ebon.vercel.app",
+  },
+  {
+    title: "🛍️ Finalprojekt: REST-API für einen Webshop",
+    image: "/beproject.png",
+    link: "https://github.com/CihanUnall/Be-Final-Project",
+  },
+  {
+    title: "Web-socket -Simple chat program",
+    image: "/websocket.png",
+    link: "https://github.com/CihanUnall/Web-socket",
   },
   {
     title: "Accounting",

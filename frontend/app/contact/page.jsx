@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import "../styles/contact.scss";
 
@@ -9,28 +10,48 @@ function Contact() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Simple Validation
+    // Basit doğrulama
     if (!formData.name || !formData.email || !formData.message) {
-      alert("All fields are required.");
+      alert("Tüm alanları doldurun.");
       return;
     }
 
     if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      alert("Please enter a valid email address.");
+      alert("Geçerli bir e-posta girin.");
       return;
     }
 
-    // Simulate form submission
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000); // Reset after 3 seconds
+    setLoading(true);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        setSubmitted(true);
+        setFormData({ name: "", email: "", message: "" });
+        setTimeout(() => setSubmitted(false), 3000);
+      } else {
+        alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+      }
+    } catch (err) {
+      console.error("Hata:", err);
+      alert("Sunucu hatası.");
+    }
+
+    setLoading(false);
   };
 
   return (
@@ -38,12 +59,10 @@ function Contact() {
       <div className="contact-container">
         <h2>Contact Me</h2>
         {submitted ? (
-          <p className="success-message">
-            Thank you! Your message has been sent.
-          </p>
+          <p className="success-message">Teşekkürler! Mesajınız gönderildi.</p>
         ) : (
           <form onSubmit={handleSubmit}>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Adınız:</label>
             <input
               type="text"
               id="name"
@@ -53,7 +72,7 @@ function Contact() {
               required
             />
 
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email">E-posta:</label>
             <input
               type="email"
               id="email"
@@ -63,7 +82,7 @@ function Contact() {
               required
             />
 
-            <label htmlFor="message">Message:</label>
+            <label htmlFor="message">Mesajınız:</label>
             <textarea
               id="message"
               name="message"
@@ -73,7 +92,9 @@ function Contact() {
               required
             ></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit" disabled={loading}>
+              {loading ? "Gönderiliyor..." : "Gönder"}
+            </button>
           </form>
         )}
       </div>
