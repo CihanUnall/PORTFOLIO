@@ -65,7 +65,7 @@
     .mapSection,
     .infoSection {
       width: 100%;
-      height: 50%;
+      height: 40%;
     }
 
     .infoSection {
@@ -90,18 +90,21 @@
     .mapSection,
     .infoSection {
       width: 100%;
-      height: 50%;
+      height: 40%;
     }
 
     .infoSection {
-      padding: 2rem 1.5rem;
+      padding: 0.5rem 0.5rem;
 
       h2 {
         font-size: 1.4rem;
+        margin: 0.2rem;
       }
 
       p {
         font-size: 0.8rem;
+
+        margin: 0.4rem;
       }
     }
   }
