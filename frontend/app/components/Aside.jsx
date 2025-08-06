@@ -26,7 +26,7 @@ function Aside() {
   const pathname = usePathname();
   const navItems = [
     { href: "/home", label: "home.jsx", icon: "/react.png" },
-    { href: "/myprofile", label: "my_profile.html", icon: "/html.png" },
+    { href: "/profile", label: "profile.html", icon: "/html.png" },
     { href: "/project", label: "project.js", icon: "/js.png" },
     { href: "/document", label: "document.json", icon: "/data.png" },
     { href: "/skills", label: "skills.md", icon: "/markdown.png" },
