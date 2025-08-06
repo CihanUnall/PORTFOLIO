@@ -11,7 +11,6 @@ export default function ContactPage() {
   return (
     <div className="contactPage">
       <div className="mapSection">
-        {/* Dinamik olarak yüklenen harita bileşenini kullanın */}
         <MapWithNoSSR />
       </div>
 

@@ -25,6 +25,8 @@
     flex-direction: column;
     justify-content: center;
     color: #333;
+    width: 50%;
+    height: 100%;
 
     h2 {
       font-size: 2.5rem;
@@ -63,11 +65,13 @@
     .mapSection,
     .infoSection {
       width: 100%;
-      height: 50vh;
+      height: 50%;
     }
 
     .infoSection {
       padding: 2rem 1.5rem;
+      width: 100%;
+      height: 50%;
 
       h2 {
         font-size: 1.7rem;
@@ -86,7 +90,7 @@
     .mapSection,
     .infoSection {
       width: 100%;
-      height: 50vh;
+      height: 50%;
     }
 
     .infoSection {
