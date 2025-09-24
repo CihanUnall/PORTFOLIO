@@ -7,9 +7,10 @@ import "../styles/document.scss";
 const certificates = [
   {
     title: "Zertifizierte Weiterbildung zum Webentwickler - Full Stack",
-    image: "/dci.png",
+    image: "/weiterbildung.png",
     link: "https://secure.internxt.com/sh/folder/gPGenzuRReKcYu5Ip822Kw/z4RBY1vX",
   },
+
   {
     title: "Bachelor of Arts in International Business",
     image: "/bachelers.png",
