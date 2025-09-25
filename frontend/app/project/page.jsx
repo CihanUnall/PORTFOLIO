@@ -6,6 +6,11 @@ import "../styles/project.scss";
 
 const projects = [
   {
+    title: "🛵 Liefrik - Finalprojekt",
+    image: "/liefrik.png",
+    link: "https://liefrik.vercel.app/",
+  },
+  {
     title: "🚗 KRC Cars - Gruppenprojekt",
     image: "/cars.png",
     link: "https://auto-nextjs-project-ebon.vercel.app/about",
