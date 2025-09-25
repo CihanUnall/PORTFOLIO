@@ -8,22 +8,22 @@ const projects = [
   {
     title: "Lebenslauf",
     image: "/lebenslauf.png",
-    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+    link: "https://secure.internxt.com/sh/folder/gPGenzuRReKcYu5Ip822Kw/z4RBY1vX",
   },
   {
     title: "Motivasionschreiben",
     image: "/motive.png",
-    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+    link: "https://secure.internxt.com/sh/folder/gPGenzuRReKcYu5Ip822Kw/z4RBY1vX",
   },
   {
     title: "Arbeitszeugnis_Titgemeyer",
     image: "/titgemeyer.png",
-    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+    link: "https://secure.internxt.com/sh/folder/gPGenzuRReKcYu5Ip822Kw/z4RBY1vX",
   },
   {
     title: "Arbeitszeugnis_Qfs",
     image: "/qfs.png",
-    link: "https://share.eu.internxt.com/d/sh/folder/fa75b9e5-2ee8-4ff9-85c2-73ee7c097edb/5de42aebde80c37056912d56f8ee0adedceba6a80d6ebf7ec1f6ad2c9aa1c0a1",
+    link: "https://secure.internxt.com/sh/folder/gPGenzuRReKcYu5Ip822Kw/z4RBY1vX",
   },
 ];
 
