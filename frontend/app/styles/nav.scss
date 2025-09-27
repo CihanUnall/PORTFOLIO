@@ -45,8 +45,6 @@
     }
   }
   .item2 {
-    border: solid 1px rgb(241, 234, 234);
-    border-radius: 8px;
     height: 1.8rem;
 
     display: flex;
@@ -55,6 +53,7 @@
     justify-content: center;
     p {
       margin-top: 0.1rem;
+      margin-left: 2.8rem;
     }
     svg {
       width: 0.7rem;
@@ -148,7 +147,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .options {
     .burger-container {
       z-index: 9998;
@@ -158,14 +157,28 @@
     }
     .item2 {
       width: 70%;
-      margin-right: 10%;
-
+      margin-right: 22%;
+      margin-left: 0;
       p {
         font-size: 0.7rem;
       }
     }
     .item3 {
       display: none;
+    }
+  }
+}
+@media (max-width: 660px) {
+  .options {
+    .item2 {
+      margin-right: 25%;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .options {
+    .item2 {
+      margin-right: 32%;
     }
   }
 }

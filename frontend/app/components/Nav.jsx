@@ -79,7 +79,7 @@ function Nav() {
       </div>
 
       <div className="item2">
-        <p>Cihan Ünal - Portfolio</p>
+        <p>Cihan Ünal </p>
       </div>
 
       <div className="item3">
