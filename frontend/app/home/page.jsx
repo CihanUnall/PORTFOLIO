@@ -12,8 +12,8 @@ export default function Home() {
           src="/cihan.png"
           alt="cihan picture"
           className="cihanbild"
-          width={900}
-          height={1000}
+          width={500}
+          height={600}
         />
       </div>
       <div className="text2">
