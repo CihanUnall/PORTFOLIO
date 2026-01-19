@@ -4,7 +4,11 @@ import "../styles/myprofile.scss";
 
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPhone,
+  faEnvelope,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Page() {
@@ -33,39 +37,39 @@ export default function Page() {
 
       {/* Social Links */}
       <div className="socials">
-        <div>
-
-        <a href="https://github.com/CihanUnall" target="_blank">
-          <FontAwesomeIcon icon={faGithub} style={{ marginRight: "5px" }} />
-          GitHub
-        </a>
+        <div className="social1"></div>
+        <div className="social1">
+          <a href="https://github.com/CihanUnall" target="_blank">
+            <FontAwesomeIcon icon={faGithub} style={{ marginRight: "5px" }} />
+            GitHub
+          </a>
         </div>
-        <div>
-
-        <a href="https://www.linkedin.com/in/cihan-ünal/" target="_blank">
-          <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: "5px" }} />
-          LinkedIn
-        </a>
+        <div className="social1">
+          <a href="https://www.linkedin.com/in/cihan-ünal/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: "5px" }} />
+            LinkedIn
+          </a>
         </div>
       </div>
 
       {/* Contact */}
       <div className="contact">
-     
         <span>
           <FontAwesomeIcon icon={faPhone} style={{ marginRight: "5px" }} />
           0157 393 80 923
         </span>
-       
+
         <span>
           <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: "5px" }} />
           cihanunal_20@hotmail.com
         </span>
         <span>
-          <FontAwesomeIcon icon={faLocationDot} style={{ marginRight: "5px" }} />
+          <FontAwesomeIcon
+            icon={faLocationDot}
+            style={{ marginRight: "5px" }}
+          />
           44623 Herne
         </span>
-       
       </div>
 
       {/* Experience */}
