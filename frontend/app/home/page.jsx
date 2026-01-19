@@ -17,15 +17,17 @@ export default function Home() {
         />
       </div>
       <div className="text2">
-        <h3>Hello </h3>
-        <h4>It's C.Unal a design wizerd</h4>
+        <h3>Hallo</h3>
+        <h4>Ich bin C.Unal, ein Design-Wizard</h4>
         <br />
         <p>
-          I built this portfolio interface entirely from scratch using Next.js,
-          SCSS, and HTML. No pre-built UI libraries or visual assets were used —
-          except for my own photo. The goal was to demonstrate my front-end
-          development skills and ability to build clean, functional interfaces
-          purely through code.
+          Ich habe diese Portfolio-Oberfläche komplett von Grund auf mit
+          Next.js, JavaScript, SCSS und HTML erstellt. Es wurden keine
+          vorgefertigten UI-Bibliotheken oder visuellen Assets verwendet — außer
+          meinem eigenen Foto. Ziel war es, meine
+          Front-End-Entwicklungsfähigkeiten und die Fähigkeit zu demonstrieren,
+          saubere, funktionale Oberflächen ausschließlich durch Code zu
+          erstellen.
         </p>
       </div>
     </div>
