@@ -25,12 +25,12 @@ function Aside() {
   };
   const pathname = usePathname();
   const navItems = [
-    { href: "/home", label: "home.jsx", icon: "/react.png" },
-    { href: "/profile", label: "profile.html", icon: "/html.png" },
-    { href: "/project", label: "project.js", icon: "/js.png" },
-    { href: "/document", label: "document.json", icon: "/data.png" },
-    { href: "/skills", label: "skills.md", icon: "/markdown.png" },
-    { href: "/contact", label: "contact.scss", icon: "/scss.png" },
+    { href: "/home", label: "Startseite.jsx", icon: "/react.png" },
+    { href: "/profile", label: "Profil.html", icon: "/html.png" },
+    { href: "/project", label: "Projekte.js", icon: "/js.png" },
+    { href: "/document", label: "Dokumente.json", icon: "/data.png" },
+    { href: "/skills", label: "Fähigkeiten.md", icon: "/markdown.png" },
+    { href: "/contact", label: "Kontakt.scss", icon: "/scss.png" },
   ];
   const sideIcons = [
     faFile,
