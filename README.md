@@ -31,7 +31,7 @@ This project was built using modern web development technologies:
 
 - **Frontend:**
   - **React.js / Next.js:** Framework for building server-side rendered and static web applications.
-  - **JavaScript / TypeScript:** Core language for application logic.
+  - **JavaScript :** Core language for application logic.
   - **SCSS / CSS Modules:** Styling components with modular and maintainable CSS.
   - **Framer Motion / Animations:** Smooth animations and interactive elements.
 
@@ -39,7 +39,7 @@ This project was built using modern web development technologies:
   - **Vercel:** Continuous deployment and hosting for the portfolio website.
 
 - **Other Tools:**
-  - **Figma / Adobe XD:** Design and UI mockups.
+  - **Figma / Excalidraw:** Design and UI mockups.
   - **Git & GitHub:** Version control and code management.
 
 ---
