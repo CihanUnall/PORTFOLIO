@@ -26,11 +26,6 @@ export default function Page() {
                 height={220}
               />
             </div>
-
-            <div className="title">
-              <h1>Cihan Ünal</h1>
-              <h2>Web Developer</h2>
-            </div>
           </div>
         </div>
       </div>

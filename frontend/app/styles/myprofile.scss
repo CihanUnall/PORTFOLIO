@@ -12,13 +12,16 @@
 /* Header */
 .header {
   height: 12rem;
-  background: url("/header-bg.jpg") center/cover no-repeat;
+  background-image: url("/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
-  background: #2563eb;
+  background-color: #ffffff1e;
 }
 
 .headerOverlay {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.089);
   height: 100%;
   display: flex;
   align-items: center;
