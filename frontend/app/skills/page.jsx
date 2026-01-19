@@ -81,6 +81,16 @@ export default function SkillsPage() {
         </div>
         <div className="card-skills">
           <Image
+            src="/typescript.svg"
+            alt="Typescript"
+            width={40}
+            height={30}
+            className="skill-image"
+          />
+          Typescript
+        </div>
+        <div className="card-skills">
+          <Image
             src="/express.png"
             alt="Express.js"
             width={40}
