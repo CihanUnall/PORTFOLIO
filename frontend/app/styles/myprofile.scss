@@ -60,8 +60,9 @@
   display: flex;
   flex-direction: row;
   padding: 1rem 0;
-  .social1 {
-    width: 30%;
+  .social1,
+  .social {
+    width: 25%;
     height: 2rem;
 
     display: flex;
@@ -82,7 +83,7 @@
 
 /* Contact */
 .contact {
-  width: 80%;
+  width: 95%;
   display: flex;
   justify-content: space-around;
   padding: 16px 0;
@@ -94,7 +95,7 @@
 
 /* Section */
 .section {
-  width: 80%;
+  width: 78%;
   margin: auto;
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -128,5 +129,140 @@
       font-size: 14px;
       line-height: 1.6;
     }
+  }
+}
+@media (max-width: 1550px) {
+  .socials {
+    padding: 0;
+  }
+
+  .avatar {
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-top: 2.5rem;
+    img {
+      width: 10rem;
+      height: 30%;
+    }
+  }
+
+  .section {
+    width: 95%;
+  }
+
+  .contact {
+    font-size: 12px;
+    padding: 0.5rem 0;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .content {
+    h3 {
+      font-size: 14px;
+    }
+
+    h4 {
+      font-size: 12px;
+    }
+
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 1250px) {
+  .header {
+    background-position: right;
+  }
+
+  .profile {
+    margin-left: 0;
+  }
+  .avatar {
+    margin-top: 5.2rem;
+
+    img {
+      width: 7rem;
+      height: auto;
+    }
+  }
+
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact {
+    font-size: 12px;
+    padding: 0.5rem 0;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .content {
+    h3 {
+      font-size: 12px;
+    }
+
+    h4 {
+      font-size: 12px;
+    }
+
+    ul {
+      li {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    background-position: left;
+  }
+  .section {
+    display: none;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-top: 1rem;
+    .social1 {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-left: 0.7rem;
+      width: 80%;
+    }
+    .social {
+      display: none;
+    }
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .headerOverlay {
+    padding: 0;
+  }
+}
+@media (max-width: 380px) {
+  .contact {
+    font-size: 10px;
   }
 }

@@ -14,7 +14,6 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function Page() {
   return (
     <div className="cvWrapper">
-      {/* Header */}
       <div className="header">
         <div className="headerOverlay">
           <div className="profile">
@@ -30,9 +29,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Social Links */}
       <div className="socials">
-        <div className="social1"></div>
+        <div className="social"></div>
+        <div className="social"></div>
         <div className="social1">
           <a href="https://github.com/CihanUnall" target="_blank">
             <FontAwesomeIcon icon={faGithub} style={{ marginRight: "5px" }} />
@@ -47,7 +46,6 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Contact */}
       <div className="contact">
         <span>
           <FontAwesomeIcon icon={faPhone} style={{ marginRight: "5px" }} />
@@ -67,7 +65,6 @@ export default function Page() {
         </span>
       </div>
 
-      {/* Experience */}
       <div className="section">
         <div className="date">09.2024 – 11.2025</div>
         <div className="content">
