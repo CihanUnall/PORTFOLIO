@@ -43,7 +43,7 @@
   }
 
   .cihanbild {
-    width: 30%;
+    width: 35%;
     height: auto;
     position: absolute;
     bottom: 0;
@@ -66,26 +66,33 @@
     opacity: 0.5;
   }
 }
-
-@media (max-width: 1380px) {
+@media (max-width: 2200px) {
   .main-container {
     .cihanbild {
-      width: 60%;
+      width: 35%;
+      height: auto;
+    }
+  }
+}
+@media (max-width: 1850px) {
+  .main-container {
+    .cihanbild {
+      width: 40%;
       height: auto;
     }
     .text2 {
       h3 {
-        font-size: 8rem;
-        margin-right: 1rem;
+        font-size: 9rem;
+        margin-right: 1.7rem;
       }
       h4 {
-        width: 15rem;
-        margin-right: 2rem;
-        font-size: 1rem;
+        width: 17rem;
+        margin-right: 1.7rem;
+        font-size: 0.8rem;
       }
       p {
-        width: 16.5rem;
-        margin-right: 2rem;
+        width: 20rem;
+        margin-right: 1.7rem;
         font-size: 0.8rem;
       }
     }
@@ -98,33 +105,41 @@
     }
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1380px) {
   .main-container {
     .cihanbild {
-      width: 70%;
+      width: 60%;
+      height: auto;
+    }
+  }
+}
+@media (max-width: 1070px) {
+  .main-container {
+    .cihanbild {
+      width: 55%;
       height: auto;
     }
     .text2 {
       h3 {
-        font-size: 6rem;
+        font-size: 9rem;
         margin-right: 1.7rem;
       }
       h4 {
-        width: 12rem;
-        margin-right: 2rem;
-        font-size: 0.7rem;
+        width: 17rem;
+        margin-right: 1.7rem;
+        font-size: 1rem;
       }
       p {
-        width: 13rem;
-        margin-right: 2rem;
-        font-size: 0.7rem;
+        width: 20rem;
+        margin-right: 1.7rem;
+        font-size: 1rem;
       }
     }
     .text1 {
       h2 {
-        font-size: 2.5rem;
-        bottom: 8rem;
-        left: -8rem;
+        font-size: 5rem;
+        bottom: 18rem;
+        left: -16rem;
       }
     }
   }
@@ -135,28 +150,35 @@
       width: 80%;
       height: auto;
     }
+    .text1 {
+      h2 {
+        font-size: 3.5rem;
+        bottom: 13rem;
+        left: -11rem;
+      }
+    }
   }
 }
 @media (max-width: 500px) {
   .main-container {
     .cihanbild {
-      width: 100%;
+      width: 90%;
       height: auto;
     }
     .text2 {
       h3 {
-        font-size: 5rem;
+        font-size: 6rem;
         margin-right: 1rem;
       }
       h4 {
-        width: 11rem;
+        width: 13.5rem;
         margin-right: 1rem;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
       }
       p {
-        width: 11rem;
+        width: 13.5rem;
         margin-right: 1rem;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
       }
     }
     .text1 {
