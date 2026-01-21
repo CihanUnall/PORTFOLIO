@@ -7,8 +7,10 @@ export default function DocumentPage() {
     <section className="certificate-container">
       <div className="certificate-list">
         <h2 className="certificate-title">
-          Weiterbildung zum Webentwickler - Full Stack (Html, CSS, Scss,
-          Tailwind, Javascript, React, Next.js, Node.js, Express, MongoDB)
+          Weiterbildung zum Webentwickler - Full Stack
+          <br />
+          Html, CSS, Scss, Tailwind, Javascript, React, Next.js, Node.js,
+          Express, MongoDB
         </h2>
         <h2 className="certificate-title">
           Bachelor of Arts in International Business

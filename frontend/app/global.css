@@ -12,7 +12,8 @@
 
 /* Body temel stili */
 body {
-  background-color: rgba(205, 209, 207, 0.718);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  background-color: rgba(34, 202, 118, 0.718);
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
